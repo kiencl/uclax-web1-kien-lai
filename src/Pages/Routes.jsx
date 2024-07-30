@@ -10,7 +10,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 
 // COMPONENTS
 import Home from "./Home";
-import Staff from "./Staff";
+import Staff from "./Staff/Staff.jsx";
 import Contact from "./Contact";
 
 // COURSE WORK PAGE COMPONENTS

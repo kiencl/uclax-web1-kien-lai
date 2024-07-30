@@ -35,12 +35,23 @@ const Essays = () => {
             <SingleEssay
                 question={`Q3: What is the difference between JQuery and React?`}
             >
-                Answer
+                Although React and jQuery both use javascript, they interact
+                with the DOM (Document Object Model) very differently. jQuery
+                applies javascript methods (using less lines of code) to update
+                a page through the traditional DOM. This route can take more
+                time, especially if the app becomes larger or more complex.
+                React, however, uses an XML-like syntax called JSX and a virtual
+                DOM that speeds up the update process.
             </SingleEssay>
             <SingleEssay
                 question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
-                Answer
+                Front-End developers work on translating designs into
+                websites/apps and use programming languages such as HTML, CSS
+                and JavaScript. Back-End developers work on enabling
+                functionality front-end developers rely on such as databases and
+                use programming languages such as Java, Python and Ruby to build
+                applications.
             </SingleEssay>
             <SingleEssay
                 question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
