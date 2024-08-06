@@ -9,7 +9,7 @@ import "@/Common/css/global.scss";
 import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 
 // COMPONENTS
-import Home from "./Home";
+import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
 import Contact from "./Contact";
 

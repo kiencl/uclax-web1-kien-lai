@@ -56,7 +56,18 @@ const Essays = () => {
             <SingleEssay
                 question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
             >
-                Answer
+                <p>
+                    Root Relative always begin by pointing to the root and
+                    indicated by a single forward slash (/) followed by the path
+                    to the file. Example: img src=“/images/photo.jpg”
+                </p>
+                <p>
+                    Document Relative traverses up from the file and indicated
+                    by one or two periods followed by a slash followed by the
+                    path to the file. The additional period is used for
+                    traversing up a directory in the file structure. Example:
+                    img src=“../images/photo.jpg”
+                </p>
             </SingleEssay>
             <SingleEssay
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
@@ -79,4 +90,8 @@ const Essays = () => {
 
 export default Essays;
 
-const EssaysStyled = styled.div``;
+const EssaysStyled = styled.div`
+    p {
+        font-size: 16px;
+    }
+`;
