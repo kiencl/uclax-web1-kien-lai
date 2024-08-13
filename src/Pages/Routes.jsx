@@ -11,7 +11,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 // COMPONENTS
 import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact.jsx";
 
 // COURSE WORK PAGE COMPONENTS
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";

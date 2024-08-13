@@ -72,7 +72,30 @@ const Essays = () => {
             <SingleEssay
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
             >
-                Answer
+                <ul>
+                    JPG
+                    <li>Raster/pixel based</li>
+                    <li>Best used for photographs</li>
+                    <li>Best for printing photos</li>
+                </ul>
+                <ul>
+                    PNG
+                    <li>Lossless compression</li>
+                    <li>Comes in 2 types, PNG-8 and PNG-24</li>
+                    <li>Support transparent backgrounds (PNG-24)</li>
+                </ul>
+                <ul>
+                    GIF
+                    <li>Limited in color palette compared to jpg</li>
+                    <li>Can be used for animation</li>
+                    <li>Smaller file size because of limited color</li>
+                </ul>
+                <ul>
+                    SVG
+                    <li>Vector based</li>
+                    <li>Can scale up without loss of image quality</li>
+                    <li>Best for creating icons and line art</li>
+                </ul>
             </SingleEssay>
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
@@ -91,7 +114,8 @@ const Essays = () => {
 export default Essays;
 
 const EssaysStyled = styled.div`
-    p {
+    p,
+    li {
         font-size: 16px;
     }
 `;
