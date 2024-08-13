@@ -24,7 +24,7 @@ export default TabContent;
 
 // prop-types
 TabContent.propTypes = {
-    prop: PropTypes.object.isRequired,
+    curTab: PropTypes.object.isRequired,
 };
 
 const TabContentStyled = styled.div`
