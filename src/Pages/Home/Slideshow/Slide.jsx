@@ -15,7 +15,7 @@ export default Slide;
 
 // prop-types
 Slide.propTypes = {
-    prop: PropTypes.object.isRequired,
+    slide: PropTypes.object.isRequired,
 };
 
 const SlideStyled = styled.div``;
