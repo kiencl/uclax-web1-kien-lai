@@ -35,7 +35,7 @@ const Form = ({ getSubmissions }) => {
 
         console.log({ postData });
 
-        await axios.post("http://locahost:4059/submissions", postData);
+        await axios.post("http://localhost:4059/submissions", postData);
 
         getSubmissions();
     };

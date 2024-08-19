@@ -9,18 +9,26 @@ const Essays = () => {
             <SingleEssay
                 question={`Q1: Explain the difference between HTML, CSS and JavaScript.`}
             >
-                There are many difference between HTML, CSS and JavaScript. HTML
-                (Hyper Text Markup Language) can be interpreted as the content
-                layer of a webpage (that can also be linked from page to page).
-                Content may include text, tables and images displayed in the
-                browser. HTML is also independent of CSS and JavaScript; meaning
-                they are not prerequisites. CSS (Cascading Style Sheet) is the
-                visual layer of a webpage and controls the visual appearance
-                including color, font (type, size, and style) and layout.
-                JavaScript provides additional functionality that enables a
-                webpage to be interactive by manipulating HTML and CSS directly
-                without the need for server side processing. Listens for events
-                such as mouse click and scroll, and keyboard input.
+                <p>
+                    There are many difference between HTML, CSS and JavaScript.
+                    HTML (Hyper Text Markup Language) can be interpreted as the
+                    content layer of a webpage (that can also be linked from
+                    page to page). Content may include text, tables and images
+                    displayed in the browser. HTML is also independent of CSS
+                    and JavaScript; meaning they are not prerequisites.
+                </p>
+                <p>
+                    CSS (Cascading Style Sheet) is the visual layer of a webpage
+                    and controls the visual appearance including color, font
+                    (type, size, and style) and layout.
+                </p>
+                <p>
+                    JavaScript provides additional functionality that enables a
+                    webpage to be interactive by manipulating HTML and CSS
+                    directly without the need for server side processing.
+                    Listens for events such as mouse click and scroll, and
+                    keyboard input.
+                </p>
             </SingleEssay>
             <SingleEssay
                 question={`Q2: What is the difference between Git and Github?`}
@@ -73,25 +81,25 @@ const Essays = () => {
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
             >
                 <ul>
-                    JPG
+                    <strong>JPG</strong>
                     <li>Raster/pixel based</li>
                     <li>Best used for photographs</li>
                     <li>Best for printing photos</li>
                 </ul>
                 <ul>
-                    PNG
+                    <strong>PNG</strong>
                     <li>Lossless compression</li>
                     <li>Comes in 2 types, PNG-8 and PNG-24</li>
                     <li>Support transparent backgrounds (PNG-24)</li>
                 </ul>
                 <ul>
-                    GIF
+                    <strong>GIF</strong>
                     <li>Limited in color palette compared to jpg</li>
                     <li>Can be used for animation</li>
                     <li>Smaller file size because of limited color</li>
                 </ul>
                 <ul>
-                    SVG
+                    <strong>SVG</strong>
                     <li>Vector based</li>
                     <li>Can scale up without loss of image quality</li>
                     <li>Best for creating icons and line art</li>
@@ -100,12 +108,51 @@ const Essays = () => {
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
             >
-                Answer
-            </SingleEssay>
-            <SingleEssay
-                question={`Q6: What is the difference between jpg, gif, png and svg images?`}
-            >
-                Answer
+                <ul>
+                    <strong>Product Manager</strong>
+                    <li>Work with budget and resources allocation</li>
+                    <li>Communication with stakeholders</li>
+                    <li>Manage timelines/deadlines</li>
+                </ul>
+                <ul>
+                    <strong>Scrum Master</strong>
+                    <li>
+                        Monitor development process to align with scrum
+                        principles
+                    </li>
+                    <li>Communicate with development team</li>
+                    <li>Facilitating the work process to remove bottlenecks</li>
+                </ul>
+                <ul>
+                    <strong>UX Designer</strong>
+                    <li>Research user needs</li>
+                    <li>
+                        Design user-friendly visual experiences (wireframes,
+                        mockups and prototypes)
+                    </li>
+                    <li>Create easy to understand user interfaces</li>
+                </ul>
+                <ul>
+                    <strong>Developer/Engineer</strong>
+                    <li>Turning prototype into working product</li>
+                    <li>Making designs look as intended</li>
+                    <li>Implementing product features</li>
+                </ul>
+                <ul>
+                    <strong>QA/SDET</strong>
+                    <li>Testing for bugs and errors</li>
+                    <li>Testing user flows to identify unintended results</li>
+                    <li>
+                        Testing for performance (system load, network
+                        connectivity)
+                    </li>
+                </ul>
+                <ul>
+                    <strong>DevOps</strong>
+                    <li>Building project infrastructure</li>
+                    <li>Project monitoring and reporting</li>
+                    <li>Project security</li>
+                </ul>
             </SingleEssay>
         </EssaysStyled>
     );
@@ -117,5 +164,8 @@ const EssaysStyled = styled.div`
     p,
     li {
         font-size: 16px;
+    }
+    ul {
+        list-style-position: inside;
     }
 `;
