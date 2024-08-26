@@ -4,17 +4,28 @@ import Inset from "@/Common/PagesLayout/Inset.jsx";
 
 import StaffList from "./StaffList/StaffList";
 
-const Staff = () => {
+const Frameworks = () => {
     return (
-        <StaffStyled>
+        <FrameworksStyled>
             <Inset>
-                <h1>Staff</h1>
+                <h1>Frameworks</h1>
                 <StaffList />
             </Inset>
-        </StaffStyled>
+        </FrameworksStyled>
     );
 };
 
-export default Staff;
+export default Frameworks;
 
-const StaffStyled = styled.div``;
+const FrameworksStyled = styled.div`
+    img {
+        padding: 40px 40px 30px 40px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        font-size: 18px;
+    }
+`;

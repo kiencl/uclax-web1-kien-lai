@@ -11,7 +11,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 // COMPONENTS
 import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
-import Contact from "./Contact/Contact.jsx";
+import Contact from "./Contact/Videos.jsx";
 
 // COURSE WORK PAGE COMPONENTS
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
@@ -19,6 +19,10 @@ import SunAndMoon from "./CourseWork/SunAndMoon/SunAndMoon.jsx";
 import Essays from "./CourseWork/Essays/Essays.jsx";
 import ResponsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 import Fundamentals from "./CourseWork/Fundamentals/Fundamentals.jsx";
+
+// RESOURCES PAGE COMPONENTS
+// import ResourcesLayout from "./Contact/ResourcesLayout.jsx";
+// import Guides from "./Contact/Guides.jsx";
 
 const MyRoutes = () => {
     return (
@@ -48,6 +52,18 @@ const MyRoutes = () => {
                                 path="javascript-fundamentals"
                             />
                         </Route>
+
+                        {/* <Route
+                                element={<Videos />}
+                                path="videos"
+                            />
+                        </Route> */}
+
+                        {/* <Route
+                                element={<Guides />}
+                                path="guides"
+                            />
+                        </Route> */}
                     </Route>
                 </Routes>
             </MediaQueryProvider>

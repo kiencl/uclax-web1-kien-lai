@@ -25,7 +25,7 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.header`
-    color: white;
+    color: #666666;
 
     .logo {
         .SiteLogo {
@@ -38,17 +38,17 @@ const MediumLargeStyled = styled.header`
     nav {
         text-align: center;
         a {
-            width: 80px;
+            width: 135px;
             display: inline-block;
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #666666;
 
             text-align: center;
-            font-size: 12px;
+            font-size: 16px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #666666;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -60,8 +60,8 @@ const MediumLargeStyled = styled.header`
             }
 
             &.active {
-                color: white;
-                border-bottom-color: white;
+                color: #323330;
+                border-bottom-color: #323330;
             }
         }
     }

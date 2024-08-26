@@ -7,9 +7,9 @@ import Tabbed from "./Tabbed/Tabbed";
 const Home = () => {
     return (
         <HomeStyled>
-            <h1>Home</h1>
             <Slideshow />
             <Inset>
+                <h1>Javascript Frameworks</h1>
                 <Tabbed />
             </Inset>
         </HomeStyled>
@@ -20,6 +20,6 @@ export default Home;
 
 const HomeStyled = styled.div`
     h1 {
-        display: none;
+        margin-top: -50px;
     }
 `;

@@ -47,18 +47,19 @@ const SmallStyled = styled.div`
         right: 0px;
         bottom: 0px;
         z-index: 100;
-        background-color: #034444;
+        background-color: #f0db4f;
     }
     a {
         display: block;
         padding: 10px;
         border-bottom: solid 1px #999999;
-        color: white;
+        color: #323330;
         text-decoration: none;
         &:hover,
         &:active,
         &:focus {
-            background-color: #002a2a;
+            color: #ffffff;
+            background-color: #323330;
         }
     }
 `;

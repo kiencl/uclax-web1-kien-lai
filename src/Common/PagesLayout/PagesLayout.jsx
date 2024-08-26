@@ -23,8 +23,9 @@ const PagesLayoutStyled = styled.div`
     main {
         background-color: #fff;
         min-height: 600px;
+
         .Inset {
-            padding: 50px 10px;
+            padding: 30px 10px;
         }
     }
 `;

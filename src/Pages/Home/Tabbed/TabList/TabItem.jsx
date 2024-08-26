@@ -23,19 +23,24 @@ TabItem.propTypes = {
 };
 
 const TabItemStyled = styled.div`
-    background-color: #014444;
-    color: #17b1b1;
+    background-color: #eeeeee;
+    color: #323330;
     text-align: center;
     cursor: pointer;
-    border-radius: 5px 5px 0px 0px;
+    border-top: 2px solid #323330;
+    border-left: 2px solid #323330;
+    border-right: 2px solid #323330;
+    border-radius: 10px 10px 0px 0px;
     line-height: 40px;
     margin-right: 5px;
-
+    padding-top: 3px;
+    font-size: 19px;
     display: inline-block;
     width: clamp(75px, 20%, 150px);
 
     &.selected {
-        background-color: teal;
-        color: white;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #323330;
     }
 `;
