@@ -125,13 +125,15 @@ nav.sublinks a {
     margin-right: 5px;
     line-height: 20px;
     text-decoration: none;
+    border: 2px solid #323330;
     border-radius: 5px;
-    padding: 10px 20px;
-    color: white;
-    background-color: #027272;
+    padding: 11px 20px 10px 20px;
+    color: #323330;
+    background-color: #ffffff;
 }
 
 nav.sublinks a:hover,
 nav.sublinks a.active {
-    background-color: #014444;
+    background-color: #323330;
+    color: white;
 }

@@ -9,7 +9,7 @@ const MainMenu = ({ onClick }) => {
                 Home
             </NavLink>
             <NavLink to={"/staff"}>Frameworks</NavLink>
-            <NavLink to={"/contact"}>Resources</NavLink>
+            <NavLink to={"/resources"}>Resources</NavLink>
             <NavLink to={"/course-work"}>Course</NavLink>
         </MainMenuStyled>
     );

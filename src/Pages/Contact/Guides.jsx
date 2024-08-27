@@ -2,16 +2,11 @@ import styled from "styled-components";
 import Inset from "@/Common/PagesLayout/Inset.jsx";
 import SingleEssay from "./SingleEssay.jsx";
 
-// 3RD PARTY NPM PACKAGE, YOUTUBE VIDEO EMBED
-import React from "react";
-import ReactPlayer from "react-player/youtube";
-
 const Resources = () => {
     return (
         <ResourcesStyled>
             <Inset>
-                <h2>Resources</h2>
-                <h3>Guides</h3>
+                <h2>Guides</h2>
 
                 <SingleEssay question={`React`}>
                     <p>
@@ -123,6 +118,9 @@ export default Resources;
 
 const ResourcesStyled = styled.div`
     max-width: 100vw;
+    h2 {
+        margin-top: -25px;
+    }
     p,
     li,
     span {

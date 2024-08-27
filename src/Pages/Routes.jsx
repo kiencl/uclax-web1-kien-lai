@@ -11,7 +11,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 // COMPONENTS
 import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
-import Contact from "./Contact/Videos.jsx";
+import Contact from "./Contact/Contact.jsx";
 
 // COURSE WORK PAGE COMPONENTS
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
@@ -21,8 +21,9 @@ import ResponsiveDesign from "./CourseWork/ResponsiveDesign.jsx";
 import Fundamentals from "./CourseWork/Fundamentals/Fundamentals.jsx";
 
 // RESOURCES PAGE COMPONENTS
-// import ResourcesLayout from "./Contact/ResourcesLayout.jsx";
-// import Guides from "./Contact/Guides.jsx";
+import ResourcesLayout from "./Contact/ResourcesLayout.jsx";
+import Guides from "./Contact/Guides.jsx";
+import Videos from "./Contact/Videos.jsx";
 
 const MyRoutes = () => {
     return (
@@ -53,17 +54,10 @@ const MyRoutes = () => {
                             />
                         </Route>
 
-                        {/* <Route
-                                element={<Videos />}
-                                path="videos"
-                            />
-                        </Route> */}
-
-                        {/* <Route
-                                element={<Guides />}
-                                path="guides"
-                            />
-                        </Route> */}
+                        <Route element={<ResourcesLayout />} path="resources">
+                            <Route element={<Videos />} path="" />
+                            <Route element={<Guides />} path="guides" />
+                        </Route>
                     </Route>
                 </Routes>
             </MediaQueryProvider>

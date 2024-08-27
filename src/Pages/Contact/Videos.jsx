@@ -10,8 +10,7 @@ const Resources = () => {
     return (
         <ResourcesStyled>
             <Inset>
-                <h2>Resources</h2>
-                <h3>Videos</h3>
+                <h2>Videos</h2>
 
                 <SingleEssay question={`React`}>
                     <p>
@@ -49,6 +48,9 @@ export default Resources;
 
 const ResourcesStyled = styled.div`
     max-width: 100vw;
+    h2 {
+        margin-top: -25px;
+    }
     p,
     li {
         font-size: 18px;

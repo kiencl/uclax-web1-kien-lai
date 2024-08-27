@@ -8,15 +8,10 @@ const ResourcesLayout = () => {
             <Inset>
                 <h1>Resources</h1>
                 <nav className="sublinks">
-                    <NavLink to="/course-work" end>
-                        {/* <NavLink to="/resources" end> */}
+                    <NavLink to="/resources" end>
                         Videos
                     </NavLink>
-
-                    <NavLink to="/course-work/javascript-fundamentals">
-                        {/* <NavLink to="resources/guides" end> */}
-                        Guides
-                    </NavLink>
+                    <NavLink to="/resources/guides">Guides</NavLink>
                 </nav>
                 <Outlet />
             </Inset>
