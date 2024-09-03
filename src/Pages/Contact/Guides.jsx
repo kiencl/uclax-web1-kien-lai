@@ -109,6 +109,35 @@ const Resources = () => {
                         </li>
                     </ul>
                 </SingleEssay>
+
+                <SingleEssay question={`Additional JS Frameworks`}>
+                    <ul>
+                        <li>
+                            <b>Svelte</b>
+                        </li>
+                        <li>
+                            <b>Next</b>
+                        </li>
+                        <li>
+                            <b>Meteor</b>
+                        </li>
+                        <li>
+                            <b>Express</b>
+                        </li>
+                        <li>
+                            <b>Gatsby</b>
+                        </li>
+                        <li>
+                            <b>Sails</b>
+                        </li>
+                        <li>
+                            <b>Echo</b>
+                        </li>
+                        <li>
+                            <b>Ember</b>
+                        </li>
+                    </ul>
+                </SingleEssay>
             </Inset>
         </ResourcesStyled>
     );
